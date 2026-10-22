@@ -255,9 +255,11 @@ const RAILWAY_CONFIGURED = Boolean(
 );
 const ADMIN_PASSWORD = Bun.env.ADMIN_PASSWORD || "xiaozhangnb";
 const QILONGZHU_PASSWORD = Bun.env.QILONGZHU_PASSWORD || "qilongzhu888";
+const GTWEI_PASSWORD = Bun.env.GTWEI_PASSWORD || "123456";
 const BUILTIN_USERS = new Map<string, string>([
   ["admin", ADMIN_PASSWORD],
   ["qilongzhu", QILONGZHU_PASSWORD],
+  ["gtwei", GTWEI_PASSWORD],
 ]);
 const APP_VERSION =
   Bun.env.RAILWAY_GIT_COMMIT_SHA ||

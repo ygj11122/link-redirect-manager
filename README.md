@@ -20,6 +20,7 @@
 - 内置账号：
 	- admin（密码来自 `ADMIN_PASSWORD`，默认 `xiaozhangnb`）
 	- qilongzhu（密码来自 `QILONGZHU_PASSWORD`，默认 `qilongzhu888`）
+	- gtwei（密码来自 `GTWEI_PASSWORD`，默认 `123456`）
 - 多账号完全数据隔离：每个账号只能看到和操作自己创建的域名、链接、IP 分配、国家限制和访问日志
 
 Cloudflare Token 相关环境变量：
